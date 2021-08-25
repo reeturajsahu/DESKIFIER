@@ -1,0 +1,14 @@
+import time
+
+from plyer import notification
+
+if __name__ == '__main__':
+    while True:
+        notification.notify(
+            title='RELAX YOUR EYES!!!',
+            message='look away from your laptop screen for at least 20 seconds, because if you will not then your eyes '
+                    'can be harmed by blue rays.',
+            app_icon='C:\\Users\\reetu\\PycharmProjects\\time_manager_project\\eyes.ico.ico',
+            timeout=5,
+        )
+        time.sleep(1200)
